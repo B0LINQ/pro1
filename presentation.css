@@ -57,12 +57,13 @@ a {
     position: absolute;
     background-color: rgba(176, 0, 0, 0); /* 灰色背景色 */
     max-width: 550px; /* 最大宽度 */
-    left: 43px;
+    left: 48px;
+    top: 120px;
     transition: background-color 0.45s, transform 0.45s ease-in-out;
 }
 #pic:hover{
     transform: scale(15);
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(75, 12, 128);
     padding: 0.95px;
     border-radius: 1px;
     overflow: hidden;
@@ -78,6 +79,9 @@ a {
 }
 #pic:hover img{
     visibility: visible;
+}
+#check{
+    color: #6b21af;
 }
 
 
