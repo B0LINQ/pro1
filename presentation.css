@@ -55,11 +55,12 @@ a {
 #pic {
     display: inline-block;
     position: absolute;
-    background-color: rgba(176, 0, 0, 0); /* 灰色背景色 */
+    background-color: rgb(176, 0, 0); /* 灰色背景色 */
     max-width: 550px; /* 最大宽度 */
-    left: 48px;
-    top: 120px;
+    left: 69px;
+    top: 98px;
     transition: background-color 0.45s, transform 0.45s ease-in-out;
+    z-index: 1;
 }
 #pic:hover{
     transform: scale(15);
