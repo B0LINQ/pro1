@@ -55,7 +55,7 @@ a {
 #pic {
     display: inline-block;
     position: absolute;
-    background-color: rgb(176, 0, 0); /* 灰色背景色 */
+    background-color: rgba(176, 0, 0, 0); /* 灰色背景色 */
     max-width: 550px; /* 最大宽度 */
     left: 69px;
     top: 98px;
