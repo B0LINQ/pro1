@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+}
+#intro{
+    color: #340e54;
+    border-radius: 5px;
+}
+.block{
+    display: inline-block;
+    padding: 10px;
+    background-color: #4b0c80;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 550px;
+    text-align: left;
+}
+.ans {
+    display: inline-block;
+    padding: 10px; /* 内边距，使文本与容器边缘有一些间距 */
+    background-color: #f0f0f0; /* 灰色背景色 */
+    color: #333; /* 文本颜色 */
+    border: 1px solid #ccc; /* 边框，增加边框效果 */
+    border-radius: 5px; /* 圆角边框 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 阴影效果，增加立体感 */
+    max-width: 550px; /* 最大宽度 */
+    text-align: left;
+}
+#next {
+    background-color: #4b0c80;
+    color: white;
+}
+#next:hover {
+    background-color: #ddd;
+    color: #6b21af;
+    transform: scale(1.05);
+    transition: background-color 0.3s, transform 0.3s ease-in-out;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 14px;
+}
+#hidden {
+    background-color: black;
+    color: black;
+    transition: background-color 0.3s ease-in-out;
+}
+#hidden:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
